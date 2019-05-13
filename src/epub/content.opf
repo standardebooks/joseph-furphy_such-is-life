@@ -38,38 +38,40 @@
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/3470</meta>
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/3470</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/3470</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A minor government official travels the Australian outback and talks to a variety of characters such as bullock-team drivers and swagmen along the way.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+		&lt;p&gt;&lt;i&gt;Such is Life&lt;/i&gt; is an Australian novel written by Joseph Furphy under a pseudonym of ‘Tom Collins’ and published in 1903. It purports to be a series of diary entries by the author, selected at approximately one-month intervals during late 1883 and early 1884. ‘Tom Collins’ travels rural New South Wales and Victoria, interacting and talking at length with a variety of characters including the drivers of bullock-teams, itinerant swagmen, boundary riders and squatters (the owners of large rural properties). The novel is full of entertaining and sometimes melancholy incidents mixed with the philosophical ramblings of the author and his frequent quotations from Shakespeare and poetry. Its depictions of the Australian ‘bush’, the rural lifestyle and the depredations of drought are vivid.&lt;/p&gt;
+		&lt;p&gt;Furphy is sometimes called the ‘Father of the Australian Novel’, and &lt;i&gt;Such is Life&lt;/i&gt; is considered a classic of Australian literature.&lt;/p&gt;
+				</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3470</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>http://arrow.latrobe.edu.au/store/3/4/4/3/0/public/B14334707.pdf</dc:source>
+		<meta property="se:production-notes">There are a considerable number of passages of semi-phonetic dialect and accent. Be very careful with what typogrify does to these, particuarly with the curling of quote marks.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Such_is_Life</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/joseph-furphy_such-is-life</meta>
 		<dc:creator id="author">Joseph Furphy</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Furphy, Joseph</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Joseph_Furphy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50016777</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Frederick McCubbin</dc:contributor>
+		<meta property="file-as" refines="#artist">McCubbin, Frederick</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Frederick_McCubbin</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n80106573</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">Col Choat</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Choat, Col</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -84,14 +86,34 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-4.xhtml" id="chapter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-5.xhtml" id="chapter-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="chapter-1.xhtml"/>
+		<itemref idref="chapter-2.xhtml"/>
+		<itemref idref="chapter-3.xhtml"/>
+		<itemref idref="chapter-4.xhtml"/>
+		<itemref idref="chapter-5.xhtml"/>
+		<itemref idref="chapter-6.xhtml"/>
+		<itemref idref="chapter-7.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
