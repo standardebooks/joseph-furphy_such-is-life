@@ -34,10 +34,14 @@
 		<dc:subject id="subject-2">Diary fiction</dc:subject>
 		<dc:subject id="subject-3">Frontier and pioneer life -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Bullockies -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/3470</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/3470</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/3470</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/3470</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2007100473</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh88007594</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008103514</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A minor government official travels the Australian outback and talks to a variety of characters such as bullock-team drivers and swagmen along the way.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
