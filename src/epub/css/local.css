@@ -19,10 +19,8 @@ header{
 	margin-bottom: 0.5em;
 }
 
-.diary-summary{
+[epub|type~="z3998:diary-entry"] p{
 	font-style: italic;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
 	text-align: center;
 	text-indent: 0;
 }
