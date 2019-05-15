@@ -11,12 +11,16 @@ span[epub|type~="subtitle"]{
 }
 
 footer{
-	margin-top: 0.5em;
+	margin-top: 1em;
 	text-align: right;
 }
 
 header{
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+.signature{
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:diary-entry"] p{
@@ -25,7 +29,7 @@ header{
 	text-indent: 0;
 }
 
-cite{
+blockquote cite{
 	font-style: italic;
 }
 
