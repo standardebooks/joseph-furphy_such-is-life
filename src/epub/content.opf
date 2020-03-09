@@ -52,7 +52,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/3470</dc:source>
 		<dc:source>http://arrow.latrobe.edu.au/store/3/4/4/3/0/public/B14334707.pdf</dc:source>
 		<meta property="se:production-notes">There are a considerable number of passages of semi-phonetic dialect and accent. Be very careful with what `se typogrify` does to these, particularly with the curling of quote marks.</meta>
-		<meta property="se:word-count">164099</meta>
+		<meta property="se:word-count">164098</meta>
 		<meta property="se:reading-ease.flesch">60.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Such_is_Life</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/joseph-furphy_such-is-life</meta>
