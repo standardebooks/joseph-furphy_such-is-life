@@ -30,7 +30,7 @@ blockquote cite{
 
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
