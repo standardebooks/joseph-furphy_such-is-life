@@ -31,6 +31,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Such is Life</dc:title>
 		<meta property="file-as" refines="#title">Such is Life</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Being Certain Extracts from the Diary of Tom Collins</dc:title>
+		<meta property="file-as" refines="#subtitle">Being Certain Extracts from the Diary of Tom Collins</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Such is Life: Being Certain Extracts from the Diary of Tom Collins</dc:title>
+		<meta property="file-as" refines="#fulltitle">Such is Life</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Australia -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Diary fiction</dc:subject>
 		<dc:subject id="subject-3">Frontier and pioneer life -- Fiction</dc:subject>
