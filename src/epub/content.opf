@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/joseph-furphy/such-is-life</dc:identifier>
 		<dc:date>2019-05-15T00:43:58Z</dc:date>
 		<meta property="dcterms:modified">2019-05-15T00:43:58Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -48,7 +49,7 @@
 		<meta property="term" refines="#subject-3">sh2008103514</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A minor government official travels the Australian outback and talks to a variety of characters such as bullock-team drivers and swagmen along the way.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Such Is Life&lt;/i&gt; is an Australian novel written by &lt;a href="https://standardebooks.org/ebooks/joseph-furphy"&gt;Joseph Furphy&lt;/a&gt; under a pseudonym of “Tom Collins” and published in 1903. It purports to be a series of diary entries by the author, selected at approximately one-month intervals during late 1883 and early 1884. “Tom Collins” travels rural New South Wales and Victoria, interacting and talking at length with a variety of characters including the drivers of bullock-teams, itinerant swagmen, boundary riders, and squatters (the owners of large rural properties). The novel is full of entertaining and sometimes melancholy incidents mixed with the philosophical ramblings of the author and his frequent quotations from Shakespeare and poetry. Its depictions of the Australian bush, the rural lifestyle, and the depredations of drought are vivid.&lt;/p&gt;
@@ -57,29 +58,30 @@
 		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3470</dc:source>
 		<dc:source>https://archive.org/details/joseph-furphy_such-is-life</dc:source>
-		<meta property="se:production-notes">There are a considerable number of passages of semi-phonetic dialect and accent. Be very careful with what `se typogrify` does to these, particularly with the curling of quote marks.</meta>
-		<meta property="se:word-count">160612</meta>
-		<meta property="se:reading-ease.flesch">69.31</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Such_Is_Life_(novel)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/joseph-furphy_such-is-life</meta>
+		<meta property="schema:wordCount">160612</meta>
+		<meta property="schema:educationalLevel">69.31</meta>
+		<link href="https://en.wikipedia.org/wiki/Such_Is_Life_(novel)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/joseph-furphy_such-is-life" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Joseph Furphy</dc:creator>
 		<meta property="file-as" refines="#author">Furphy, Joseph</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Joseph_Furphy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50016777</meta>
+		<link href="https://en.wikipedia.org/wiki/Joseph_Furphy" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50016777.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Frederick McCubbin</dc:contributor>
 		<meta property="file-as" refines="#artist">McCubbin, Frederick</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Frederick_McCubbin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80106573</meta>
+		<link href="https://en.wikipedia.org/wiki/Frederick_McCubbin" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80106573.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Col Choat</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Choat, Col</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -88,7 +90,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
