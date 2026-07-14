@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Such Is Life: Being Certain Extracts from the Diary of Tom Collins</dc:title>
 		<meta property="file-as" refines="#fulltitle">Such Is Life</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Australia -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Diary fiction</dc:subject>
 		<dc:subject id="subject-3">Frontier and pioneer life -- Fiction</dc:subject>
