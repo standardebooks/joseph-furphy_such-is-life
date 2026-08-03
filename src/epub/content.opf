@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/joseph-furphy/such-is-life</dc:identifier>
 		<dc:date>2019-05-15T00:43:58Z</dc:date>
@@ -50,11 +50,11 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A minor government official travels the Australian outback and talks to a variety of characters such as bullock-team drivers and swagmen along the way.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A minor government official travels the Australian outback and talks to a variety of characters such as bullock-team drivers and swagmen along the way.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Such Is Life&lt;/i&gt; is an Australian novel written by &lt;a href="https://standardebooks.org/ebooks/joseph-furphy"&gt;Joseph Furphy&lt;/a&gt; under a pseudonym of “Tom Collins” and published in 1903. It purports to be a series of diary entries by the author, selected at approximately one-month intervals during late 1883 and early 1884. “Tom Collins” travels rural New South Wales and Victoria, interacting and talking at length with a variety of characters including the drivers of bullock-teams, itinerant swagmen, boundary riders, and squatters (the owners of large rural properties). The novel is full of entertaining and sometimes melancholy incidents mixed with the philosophical ramblings of the author and his frequent quotations from Shakespeare and poetry. Its depictions of the Australian bush, the rural lifestyle, and the depredations of drought are vivid.&lt;/p&gt;
 			&lt;p&gt;Furphy is sometimes called the “Father of the Australian Novel,” and &lt;i&gt;Such Is Life&lt;/i&gt; is considered a classic of Australian literature.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-AU</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3470</dc:source>
 		<dc:source>https://archive.org/details/joseph-furphy_such-is-life</dc:source>
